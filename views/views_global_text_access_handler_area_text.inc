@@ -97,7 +97,6 @@ class views_global_text_access_handler_area_text extends views_handler_area_text
     * Overrides views_handler_area_text::render().
     */
   function render($empty = FALSE) {
-    dsm($this->options);
     switch ($this->options['access_check_type']) {
       case 'role':
         global $user;
