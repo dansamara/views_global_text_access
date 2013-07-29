@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Provides a access restrictions form in Views Global:Text field
+ */
+
+/**
+ * Implements hook_views_api().
+ */
+function views_global_text_access_views_api() {
+  return array(
+    'api' => '3',
+    'path' => drupal_get_path('module', 'views_global_text_access') . '/views',
+  );
+}

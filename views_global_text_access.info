@@ -1,0 +1,8 @@
+name = Views Global Text Access
+description = Provides a access restrictions form in Views Global:Text field
+dependencies[] = views
+package = Views
+core = 7.x
+
+files[] = views/views_global_text_access.views.inc
+files[] = views/views_global_text_access_handler_area_text.inc
